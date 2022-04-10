@@ -1,0 +1,80 @@
+@mixin naslov {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #c48f6e;
+    
+}
+
+@mixin paragrafi {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #fff; 
+}
+
+@mixin navigacionifont {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #000000;
+}
+//*TRECA SEKCIJA SAJTA
+@mixin naslov-trece-sekcije {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;  
+    line-height: 20px;
+}
+
+@mixin paragrafi-trece-sekcije {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+@mixin heding-cetvrta-sekcija {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;  
+    line-height: 30px;
+    color: #c48f6e;
+    
+    
+}
+@mixin paragraf-cetvrta-sekcija {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500; 
+    line-height: 34px;
+    color: white;
+}
+
+//*Peti deo sajta
+@mixin heding-peta-sekcija {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;  
+    line-height: 30px;
+    color: #c48f6e;
+    
+    
+    
+}
+@mixin paragraf-peta-sekcija {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500; 
+    line-height: 34px;
+    
+    
+}
+
+    

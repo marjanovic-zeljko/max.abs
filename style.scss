@@ -1,0 +1,119 @@
+@import 'mixins.scss';
+@import 'variables.scss';
+
+.fa-dumbbell{
+    zoom: 1.3;
+    padding-left: 10px;
+}
+.dropdown-item{
+    @include navigacionifont;
+}
+
+.btn{@include navigacionifont;}
+.form-control{@include navigacionifont;
+    
+}
+
+  
+.navbar{
+
+    
+    
+}
+.nav-link{
+    @include navigacionifont;
+}
+.photo-with-text{
+    background-image: url("/images/scott-webb-gWerBZuKM9c-unsplash.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.photo-with-text-div{
+    align-items: left;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+}
+.photo-with-text{
+
+
+ &-heading_first{
+     @include naslov;
+     width: 80%
+     
+     
+ }
+ &-paragraf_first{
+     @include paragrafi;
+     width: 65%
+     
+}
+
+}
+
+.third{
+    padding:100px 0;
+}
+.third-section{
+    &-image_first{}
+    &-photo{
+        width: 100%
+    }
+    &-heading{
+        @include naslov-trece-sekcije;
+        width: 80%;
+        
+    }
+    &-paragraf{
+        @include paragrafi-trece-sekcije;
+        width: 90%;
+        
+    }
+
+}
+.section4{
+    background-image: url(/images/photo4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+
+.heading_fourth{
+    @include heding-cetvrta-sekcija;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.paragraf_fourth{
+    @include paragraf-cetvrta-sekcija;
+    text-align: left;
+}
+
+.transformacije{
+    background-image: url(/images/pet-deo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px 0 250px 0;
+}
+
+.heading_five{
+    @include heding-peta-sekcija;
+}
+.paragraf_five{
+    @include paragraf-peta-sekcija;
+}
+.sesta{
+    background-image: url(/images/Untitled\ design.svg);
+    background-size: cover;
+    background-repeat: repeat;
+    
+    padding: 240px 0;
+}
+
+.card{
+    border-radius: 50px !important;
+}
+.footer{
+    padding: 120px 0;
+    zoom: 1.5;
+}
